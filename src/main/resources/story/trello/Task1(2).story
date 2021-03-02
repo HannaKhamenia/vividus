@@ -1,9 +1,6 @@
 Description: 1.	Task1 HW2
 
-Scenario: ‘Sign Up’ scenario 
-
-Given I am on a page with the URL 'https://trello.com/'
-When I logged in
+Scenario: Trello board creation via API
 
 Given request body: {
 	}

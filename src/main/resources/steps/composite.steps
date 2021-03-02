@@ -26,11 +26,3 @@ When I find <= '1' elements by By.xpath(//*[@class="Input__InputElement-sc-1o6bj
 When I click on element located `By.xpath(//*[@id="login-submit"])`
 
 
-Composite: Then `boards creation` event is triggered
-When I wait until HTTP GET request with URL pattern `https://trello.com/b/*` exists in proxy log
-When I capture HTTP GET request with URL pattern `https://trello.com/b/*` and save URL query to scenario variable `token-params`
-Then `${view-params}` is equal to table ignoring extra columns:
-{headerSeparator=!,valueSeparator=!}
-!c2!c5                               !
-!us!direct : rexulti > dtc > us > mdd!
-When I clear proxy log
