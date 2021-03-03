@@ -1,5 +1,3 @@
-Description: 1.	Task1 HW2
-
 Scenario: ‘Sign Up’ scenario 
 
 Given I am on a page with the URL 'https://trello.com/signup'
@@ -15,11 +13,3 @@ When I click on element located `By.xpath(//button[@type="submit"])`
 Examples:
 |fullName                                              |password                                |
 |#{generate(Name.firstName)} #{generate(Name.lastName)}|#{generate(regexify '[a-z]{5}[A-Z]{2}')}|
-
-
-
-
-
-
-
-
